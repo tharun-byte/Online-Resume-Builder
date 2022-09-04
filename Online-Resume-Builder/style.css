@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+    background-color: #4466E1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cont {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.resume-template {
+    width: 650px;
+    height: 700px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 70px;
+    display: flex;
+}
+
+.profile-space{
+    width: 80px;
+    height: 90px;
+    background-color: #E8FF5E;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 23px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.userdata-side{
+    height: 100%;
+    background-color: #AA55D2;
+    width: 26vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-data {
+   width: 70%;
+   height: 100%;
+   margin-left: 45px;
+   color: white;
+   margin-top: 14px;
+}
+
+.contact, .education, .skills h1{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.contact, .education, .skills p {
+    font-size: 10px;
+    width: 155px;
+    text-transform: capitalize;
+}
+
+.main-side {
+   width: 100%;
+   padding-left: 34px;
+   padding-top: 30px;
+}
+
+.discription {
+    width: 350px;
+    height: 170px;
+}
+
+.discription h1 {
+    text-transform: uppercase;
+}
+
+.profession-title {
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.main-description, .profession-description, .additional-skills {
+    margin-top: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: start;
+    margin-left: 7px;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    width: 650px;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 150px;
+    display: block;
+}
+.scroll {
+       display: flex;
+       overflow-x: scroll;
+       overflow-y: hidden;
+} 
+.scroll section {
+    flex: none;
+}
+.inputs .main-head {
+   color: white;
+   text-transform: capitalize;
+   text-align: center;
+   word-spacing: 5px;
+   font-size: 28px;
+}
+
+.front-page-sec {
+   width: 100%;
+   height: 90vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.second-page-sec {
+    width: 100%;
+    height: 90vh;
+}
+form {
+    display: grid;
+    display: inline-grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+}
+form .input-styler {
+    width: 285px;
+    height: 80px;
+    background-color: rgb(60, 60, 224);
+    margin: 10px;
+}
+form .textarea-styler {
+    width: 285px;
+    height: 180px;
+    background-color: rgb(60, 60, 224);
+    margin: 10px;
+}
+form .textarea-styler textarea {
+    height: 140px;
+    position: relative;
+    left: 23px;
+    width: 230px;
+    border-radius: 5px;
+    border: none;
+}
+
+form .input-styler input {
+    width: 230px;
+    position: relative;
+    left: 23px;
+    top: 6px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+form .input-styler, label {
+    color: white;
+    margin-left: 10px
+}
+.btns {
+    display: flex;
+    position: fixed;
+    width: 300px;
+    justify-content: space-around;
+    top: 678px;
+    right: 253px;
+}
+.next-btn{
+   width: 130px;
+   height: 30px;
+   text-transform: uppercase;
+   font-weight: 500;
+   border-radius: 10px;
+   border: none;
+   cursor: pointer;
+   background-color: white;
+   text-align: center;
+   color: black;
+   text-decoration: none;
+}
+.back-btn:hover, .next-btn:hover {
+    background-color: rgb(76, 216, 158);
+    color: white;
+}
+.back-btn {
+    width: 130px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+#skills-space {
+    height: 250px;
+    display: block;
+}
+
+#skills-space input {
+    margin-top: 10px;
+}
+.custom-file-input::-webkit-file-upload-button {
+    width: 130px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.custom-file-input::-webkit-file-upload-button:hover {
+    background-color: rgb(76, 216, 158);
+    color: white;
+}
+
+#SkillList li{
+    text-transform: capitalize;
+}
+
+input[type=text] {
+    text-transform: capitalize;
+    color: rgb(95, 95, 95);
+    padding-left: 5px;
+}
+
+textarea {
+    resize: none;
+    color: rgb(95, 95, 95);
+    padding-left: 5px;
+    padding-top: 5px;
+}
